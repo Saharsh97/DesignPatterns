@@ -9,7 +9,11 @@ public class DataBaseConnection {
 
     public static DataBaseConnection getInstance() {
         if(INSTANCE == null) {
-            INSTANCE = new DataBaseConnection();
+            synchronized (new Object()) {
+                if(INSTANCE == null) {
+                    INSTANCE = new DataBaseConnection();
+                }
+            }
         }
         return INSTANCE;
     }
