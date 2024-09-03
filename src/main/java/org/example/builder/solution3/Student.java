@@ -9,6 +9,7 @@ public class Student {
     private String phoneNumber;
     private Double psp;
     private Integer gradYear;
+    private String email;
 
     public static Builder getBuilder(){
         return new Builder();
@@ -53,6 +54,10 @@ public class Student {
         return gradYear;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
     public static class Builder {
         private Integer id;
         private String name;
@@ -61,6 +66,7 @@ public class Student {
         private String phoneNumber;
         private Double psp;
         private Integer gradYear;
+        private String email;
 
         Builder(){
 
@@ -101,6 +107,11 @@ public class Student {
             return this;
         }
 
+        public Builder setEmail(String email) {
+            this.email = email;
+            return this;
+        }
+
         public Student build(){
             if(age < 20){
                 throw new RuntimeException("Age must be greater than 20");
@@ -110,6 +121,9 @@ public class Student {
             }
             if(gradYear < 2022){
                 throw new RuntimeException("GradYear must be greater than 2022");
+            }
+            if(email != null && email.length() < 5){
+                throw new RuntimeException("Email must be at least 5 characters");
             }
             return new Student(this);
         }

@@ -16,6 +16,14 @@ public class Client {
                          .setPsp(99.8)
                          .build();
         System.out.println(st2.getName());
+
+        Student st3 = Student.getBuilder()
+                        .setId(100)
+                        .setName("Karthik")
+                        .setEmail("k@scaler.com")
+                        .setAge(25)
+                        .setPsp(100.0)
+                        .build();
         System.out.println("DEBUG");
     }
 }
