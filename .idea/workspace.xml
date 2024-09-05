@@ -4,9 +4,142 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e229462-af3a-419a-b217-12cec5b6fee4" name="Changes" comment="init code for Builder">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/builder/solution3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/builder/solution3/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/builder/solution3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/builder/solution3/Student.java" afterDir="false" />
+    <list default="true" id="8e229462-af3a-419a-b217-12cec5b6fee4" name="Changes" comment="added new attribute email">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/Flutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/buttons/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/buttons/IOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/buttons/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/dropdowns/AndroidDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/dropdowns/DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/dropdowns/IOSDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/dropdowns/WindowDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/message/AndroidMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/message/IOSMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/components/message/WindowsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterProblem/enums/SupportedPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/Flutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/buttons/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/buttons/IOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/buttons/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/dropdowns/AndroidDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/dropdowns/DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/dropdowns/IOSDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/dropdowns/WindowDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/message/AndroidMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/message/IOSMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/components/message/WindowsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/enums/SupportedPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/uiFactories/AndroidUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/uiFactories/IOSUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/uiFactories/UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/uiFactories/WindowsUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/Flutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/UIPracticalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/buttons/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/buttons/IOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/buttons/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/dropdowns/AndroidDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/dropdowns/DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/dropdowns/IOSDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/dropdowns/WindowDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/message/AndroidMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/message/IOSMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/components/message/WindowsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/enums/SupportedPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/uiFactories/AndroidUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/uiFactories/IOSUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/uiFactories/UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2/uiFactories/WindowsUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/problem1/BirdKingdom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/problem1/birds/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/problem1/birds/Crow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/problem1/birds/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/problem1/birds/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/problem1/sounds/CrowSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/problem1/sounds/PigeonSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/problem1/sounds/Sound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/problem1/sounds/SparrowSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/solution1/BirdKingdom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/solution1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/solution1/birds/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/solution1/birds/Crow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/solution1/birds/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/solution1/birds/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/solution1/sounds/CrowSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/solution1/sounds/PigeonSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/solution1/sounds/Sound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/factory/solution1/sounds/SparrowSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/Flutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/buttons/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/buttons/IOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/buttons/LinuxButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/buttons/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/dropdowns/AndroidDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/dropdowns/DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/dropdowns/IOSDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/dropdowns/LinuxDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/dropdowns/WindowDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/message/AndroidMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/message/IOSMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/message/LinuxMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/components/message/WindowsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterProblem/enums/SupportedPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/Flutter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/UIPracticalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/buttons/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/buttons/IOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/buttons/LinuxButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/buttons/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/dropdowns/AndroidDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/dropdowns/DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/dropdowns/IOSDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/dropdowns/LinuxDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/dropdowns/WindowDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/message/AndroidMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/message/IOSMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/message/LinuxMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/components/message/WindowsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/enums/SupportedPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/factories/AndroidUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/factories/IOSUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/factories/LinuxUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/factories/UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/factories/WindowsUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/BirdKingdom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/birds/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/birds/Crow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/birds/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/birds/Koyal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/birds/Pigeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/birds/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/colors/Black.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/colors/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/colors/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/colors/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/sounds/CrowSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/sounds/DefaultSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/sounds/Koo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/sounds/PigeonSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/sounds/Sound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/problem1/sounds/SparrowSound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +149,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,19 +170,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Client.executor": "Debug",
+    "Application.Client.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.org.example.backup.builder.Main.executor": "Debug",
     "Application.org.example.backup.builder.solution2.Client.executor": "Debug",
+    "Application.org.example.backup.factory.flutterProblem.Client.executor": "Run",
+    "Application.org.example.backup.factory.solution2.Client.executor": "Run",
     "Application.org.example.builder.problem.Main.executor": "Debug",
     "Application.org.example.builder.solution1.Client.executor": "Debug",
     "Application.org.example.builder.solution2.Client.executor": "Debug",
     "Application.org.example.builder.solution3.Client.executor": "Run",
+    "Application.org.example.factory.flutterSolution.Client.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/saharsh/Desktop/repo/DesignPatterns/src/main/java/org/example/builder/solution3",
+    "last_opened_file_path": "/Users/saharsh/Desktop/repo/DesignPatterns/src/main/java/org/example/factory/flutterSolution",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,23 +196,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/org/example/builder/solution3" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/example/builder/solution2" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/example/builder" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/example/backup/builder/solution3" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/example/backup/builder/solution2" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/factory/problem1" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/factory" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution2" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/backup/factory/flutterSolution1/uiFactories" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.builder.solution3.Client">
-    <configuration name="org.example.backup.builder.solution2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.backup.builder.solution2.Client" />
+  <component name="RunManager" selected="Application.org.example.factory.flutterSolution.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.backup.factory.flutterSolution1.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.backup.builder.solution2.*" />
+          <option name="PATTERN" value="org.example.backup.factory.flutterSolution1.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.builder.problem.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.builder.problem.Main" />
+    <configuration name="org.example.backup.factory.flutterProblem.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.backup.factory.flutterProblem.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.builder.problem.*" />
+          <option name="PATTERN" value="org.example.backup.factory.flutterProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,25 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.builder.solution1.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.builder.solution1.Client" />
+    <configuration name="org.example.backup.factory.flutterSolution2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.backup.factory.flutterSolution2.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.builder.solution1.Client" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.builder.solution2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.builder.solution2.Client" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.builder.solution2.*" />
+          <option name="PATTERN" value="org.example.backup.factory.flutterSolution2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,13 +259,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.factory.flutterSolution.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.factory.flutterSolution.Client" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.factory.flutterSolution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.factory.flutterSolution.Client" />
+        <item itemvalue="Application.org.example.backup.factory.flutterProblem.Client" />
+        <item itemvalue="Application.org.example.backup.factory.flutterSolution2.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.org.example.builder.solution3.Client" />
-        <item itemvalue="Application.org.example.builder.solution2.Client" />
-        <item itemvalue="Application.org.example.builder.solution1.Client" />
-        <item itemvalue="Application.org.example.builder.problem.Main" />
-        <item itemvalue="Application.org.example.backup.builder.solution2.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +301,9 @@
       <workItem from="1725030981468" duration="4483000" />
       <workItem from="1725292928916" duration="1499000" />
       <workItem from="1725296045342" duration="10898000" />
+      <workItem from="1725337115302" duration="4511000" />
+      <workItem from="1725471277921" duration="3926000" />
+      <workItem from="1725499965209" duration="7079000" />
     </task>
     <task id="LOCAL-00001" summary="init code for Singleton">
       <option name="closed" value="true" />
@@ -181,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725336530946</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added new attribute email">
+      <option name="closed" value="true" />
+      <created>1725337126923</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725337126923</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +338,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init code for Singleton" />
     <MESSAGE value="init code for Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="init code for Builder" />
+    <MESSAGE value="added new attribute email" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new attribute email" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -229,6 +378,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/builder/solution2/Client.java</url>
           <line>9</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution/Client.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
