@@ -4,30 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e229462-af3a-419a-b217-12cec5b6fee4" name="Changes" comment="added Prototype code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/BankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/adapters/BankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/adapters/ICICIBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/adapters/YesBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/thirdParty/ICICIBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/thirdParty/YesBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/adapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/adapter/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/adapter/adapters/BankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/adapter/adapters/ICICIBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/adapter/adapters/YesBankAPIAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/adapter/thirdParty/ICICIBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/adapter/thirdParty/YesBankAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/GoogleMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/ModeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/PathFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/pathFinders/BikePathCal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/pathFinders/CarPathCal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/pathFinders/PathCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/pathFinders/TrainPathCal.java" afterDir="false" />
+    <list default="true" id="8e229462-af3a-419a-b217-12cec5b6fee4" name="Changes" comment="added Strategy and Adapter code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/giftDecorator/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/giftDecorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/giftDecorator/CoverPaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/giftDecorator/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/giftDecorator/Ribbon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/giftDecorator/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/icecreamDecorator/Cherry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/icecreamDecorator/ChocoChips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/icecreamDecorator/ChocolateCone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/icecreamDecorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/icecreamDecorator/IceCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/icecreamDecorator/NormalCone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/icecreamDecorator/OrangeScoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/icecreamDecorator/StrawberryScoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/backup/decorator/icecreamDecorator/VanillaScoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/giftDecorator/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/giftDecorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/giftDecorator/CoverPaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/giftDecorator/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/giftDecorator/Ribbon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/giftDecorator/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/icecreamDecorator/Cherry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/icecreamDecorator/ChocoChips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/icecreamDecorator/ChocolateCone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/icecreamDecorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/icecreamDecorator/IceCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/icecreamDecorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/icecreamDecorator/NormalCone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/icecreamDecorator/OrangeScoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/icecreamDecorator/StrawberryScoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/icecreamDecorator/VanillaScoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,15 +68,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Client.executor": "Run",
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "Application.org.example.backup.builder.Main.executor": "Debug",
     "Application.org.example.backup.builder.solution2.Client.executor": "Debug",
+    "Application.org.example.backup.decorator.giftDecorator.Client.executor": "Run",
+    "Application.org.example.backup.decorator.icecreamDecorator.Client.executor": "Run",
     "Application.org.example.backup.factory.flutterProblem.Client.executor": "Run",
     "Application.org.example.backup.factory.solution2.Client.executor": "Run",
     "Application.org.example.builder.problem.Main.executor": "Debug",
     "Application.org.example.builder.solution1.Client.executor": "Debug",
     "Application.org.example.builder.solution2.Client.executor": "Debug",
     "Application.org.example.builder.solution3.Client.executor": "Run",
+    "Application.org.example.decorator.giftDecorator.Client.executor": "Run",
     "Application.org.example.factory.flutterSolution.Client.executor": "Debug",
     "Application.org.example.prototypes.Client.executor": "Debug",
     "Application.org.example.strategy.Client.executor": "Run",
@@ -76,7 +87,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/saharsh/Desktop/repo/DesignPatterns/src/main/java/org/example/adapter",
+    "last_opened_file_path": "/Users/saharsh/Desktop/repo/DesignPatterns/src/main/java/org/example/decorator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,24 +98,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/decorator" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/adapter" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/backup/adapter/adapters" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/backup/adapter/thirdParty" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/example/factory/flutterSolution" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.adapter.adapters" />
       <recent name="org.example.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.strategy.Client">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.adapter.Client" />
+      <option name="MAIN_CLASS_NAME" value="org.example.decorator.icecreamDecorator.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.adapter.*" />
+          <option name="PATTERN" value="org.example.decorator.icecreamDecorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.backup.factory.flutterProblem.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.backup.factory.flutterProblem.Client" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.decorator.icecreamDecorator.Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.backup.factory.flutterProblem.*" />
+          <option name="PATTERN" value="org.example.decorator.icecreamDecorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.factory.flutterSolution.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.factory.flutterSolution.Client" />
+    <configuration name="org.example.backup.decorator.giftDecorator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.backup.decorator.giftDecorator.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.factory.flutterSolution.*" />
+          <option name="PATTERN" value="org.example.backup.decorator.giftDecorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.prototypes.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.prototypes.Client" />
+    <configuration name="org.example.backup.decorator.icecreamDecorator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.backup.decorator.icecreamDecorator.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.prototypes.*" />
+          <option name="PATTERN" value="org.example.backup.decorator.icecreamDecorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.strategy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.strategy.Client" />
+    <configuration name="org.example.decorator.giftDecorator.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.decorator.giftDecorator.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.strategy.*" />
+          <option name="PATTERN" value="org.example.decorator.giftDecorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.strategy.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.org.example.prototypes.Client" />
-        <item itemvalue="Application.org.example.factory.flutterSolution.Client" />
-        <item itemvalue="Application.org.example.backup.factory.flutterProblem.Client" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.example.decorator.giftDecorator.Client" />
+        <item itemvalue="Application.org.example.backup.decorator.icecreamDecorator.Client" />
+        <item itemvalue="Application.org.example.backup.decorator.giftDecorator.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +210,8 @@
       <workItem from="1725646499916" duration="5464000" />
       <workItem from="1725770716365" duration="8000" />
       <workItem from="1725792947121" duration="6637000" />
+      <workItem from="1726068344170" duration="4223000" />
+      <workItem from="1726107703006" duration="1539000" />
     </task>
     <task id="LOCAL-00001" summary="init code for Singleton">
       <option name="closed" value="true" />
@@ -240,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725792958536</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added Strategy and Adapter code">
+      <option name="closed" value="true" />
+      <created>1726068382967</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726068382967</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +273,8 @@
     <MESSAGE value="added new attribute email" />
     <MESSAGE value="added Factory Method code" />
     <MESSAGE value="added Prototype code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Prototype code" />
+    <MESSAGE value="added Strategy and Adapter code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Strategy and Adapter code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -307,12 +329,12 @@
           <line>4</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/backup/decorator/giftDecorator/Client.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="st3" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
